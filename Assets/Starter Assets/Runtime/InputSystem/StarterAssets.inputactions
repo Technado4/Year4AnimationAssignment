@@ -55,6 +55,16 @@
                     "interactions": "",
                     "initialStateCheck": false,
                     "priority": 0
+                },
+                {
+                    "name": "Weird",
+                    "type": "Button",
+                    "id": "62132b0b-fdcd-4134-a1fe-793863423222",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
                 }
             ],
             "bindings": [
@@ -242,6 +252,17 @@
                     "processors": "",
                     "groups": ";KeyboardMouse",
                     "action": "Fall",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "65a9841c-3ce0-4a9d-b955-83a483cfb376",
+                    "path": "<Keyboard>/5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";KeyboardMouse",
+                    "action": "Weird",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

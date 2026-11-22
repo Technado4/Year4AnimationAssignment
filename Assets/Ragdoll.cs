@@ -28,4 +28,15 @@ public class Ragdoll : MonoBehaviour
         gameObject.GetComponent<Animator>().enabled = false;
         gameObject.GetComponent<CharacterController>().enabled = false;
     }
+
+    public void OnWeird()
+    {
+        Debug.Log("Weird");
+        gameObject.GetComponent<Animator>().SetTrigger("doSomething");
+    }
+
+    public void JumpPeakHeight()
+    {
+        Debug.Log("Jump Peak Height");
+    }
 }
