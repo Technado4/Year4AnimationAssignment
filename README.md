@@ -19,6 +19,8 @@ https://i.imgur.com/qpq3aXr.gif
 <h2><u>Unity Import:</u></h2> 
 The model was imported into Unity’s Third person controller sample scene, and a custom humanoid avatar was made for the model. Adjustments had to be made to the avatar to prevent the arms and feet from being backwards in game 
 
+https://i.imgur.com/5kCEXhV.gif
+
 <h2><u>Animation State Machines and Blend Trees:</u></h2> 
 The two animation clips were imported into the scene in separate FBX files, and new copies of the main model’s avatar were used on them. The animation state machine had a new blend tree added using a custom trigger parameter to switch between animations 
 
@@ -29,6 +31,11 @@ The two animation clips were imported into the scene in separate FBX files, and 
 
 Two animation events were added, specifically when the jump animation reaches the peak of its height and when the run animation kicks its left leg forward. Both will evoke methods in a custom script that changes the content of a custom UI text on screen, specifically stating "Bro jumped" and "Bro walked".
 
+https://i.imgur.com/I4MnJhA.gif
+
 <h2><u>Ragdoll:</u></h2>
 
 A ragdoll effect was added by adding a ragdoll to the player's armature, adjusting the collider sizes and setting all of the rigidbodies to Kinematic. By disabling the animator and character controller and setting every rigidbody to non-kinematic it causes the character to enter a ragdoll state
+
+https://i.imgur.com/i5JMtFJ.gif
+
