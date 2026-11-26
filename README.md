@@ -13,6 +13,9 @@ This model was then exported and sent to Blender where a rig was set up using th
 <h2><u>Animation Clip Creation:</u></h2>
 Two amateurish animation clips were made, one specifically of the character running and one of them jumping, both used Blender’s keyframe tools to animate as well as different easing types as an attempt at smoother movement. 
 
+https://i.imgur.com/GnOQ6rB.gif<br>
+https://i.imgur.com/qpq3aXr.gif
+
 <h2><u>Unity Import:</u></h2> 
 The model was imported into Unity’s Third person controller sample scene, and a custom humanoid avatar was made for the model. Adjustments had to be made to the avatar to prevent the arms and feet from being backwards in game 
 
